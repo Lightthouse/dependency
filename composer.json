@@ -1,0 +1,19 @@
+{
+    "name": "ntschool/dependency",
+    "description": "create random user",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Stepan",
+            "email": "kazantcev.stepan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NTSchool\\Dependency\\": "./src"
+        }
+    },
+    "require": {
+        "pavliha/randomuser-generator": "^1.0"
+    }
+}
